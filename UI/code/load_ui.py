@@ -1463,6 +1463,7 @@ class MyWindow(QMainWindow):
 
     def init_ui(self):
         self.ui = uic.loadUi("./_internal/GUI.ui")
+        # self.ui = uic.loadUi("GUI.ui")
 
         # 菜单栏控件
         self.action_quit = self.ui.action_quit
