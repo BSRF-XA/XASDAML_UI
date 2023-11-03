@@ -1908,8 +1908,10 @@ class MyWindow(QMainWindow):
         QApplication.quit()
 
     def to_about(self):
-        # print("about")
-        QMessageBox.about(self, 'About', 'XASDAML 0.1.0, copyright 2022-2023 IHEP')
+        QMessageBox.about(self, 'About XASDAML', 'XASDAML v0.8,Copyright@Zhao Haifeng(zhaohf@ihep.ac.cn), '
+                                                 'Platform of Advanced Photon Source Technology R&D(PAPS), '
+                                                 'Institute of High Energy Physics, Chinese Academy of Science, Beijing 100049, China. ')
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
